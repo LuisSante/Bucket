@@ -1,0 +1,35 @@
+A-> patrón de diseño templatemethod
+El patrón de diseño Template Method (Método Plantilla) se utiliza para definir el esqueleto de un algoritmo en una clase base y permitir que las subclases implementen ciertos pasos del algoritmo según sea necesario. El patrón Template Method promueve la reutilización de código y permite una variabilidad controlada en el comportamiento de las subclases.
+
+B-> patrón de diseño builder
+El patrón de diseño Builder se utiliza para crear objetos complejos paso a paso, permitiendo la creación de diferentes representaciones de un mismo objeto subyacente. 
+
+C-> patrón de diseño strategy
+El patrón de diseño Strategy se utiliza para definir una familia de algoritmos, encapsular cada uno de ellos y hacerlos intercambiables. Esto permite que el algoritmo utilizado pueda variar independientemente de los clientes que lo utilizan
+
+D-> patrón de diseño singleton
+El patrón de diseño Singleton se utiliza para garantizar que una clase solo tenga una única instancia y proporcionar un punto de acceso global a dicha instancia.
+
+E-> patrón de diseño decorator
+El patrón de diseño Decorator se utiliza para agregar funcionalidad adicional a un objeto existente sin modificar su estructura básica. Proporciona una alternativa flexible a la herencia, ya que permite agregar o quitar comportamientos en tiempo de ejecución.
+
+F-> patrón de diseño state
+El patrón de diseño State se utiliza para permitir que un objeto altere su comportamiento cuando su estado interno cambia. El objeto aparece como si hubiera cambiado su clase. 
+
+G-> patrón de diseño multiton
+El patrón de diseño Multiton es una variante del patrón Singleton que permite tener múltiples instancias de una clase, cada una asociada a una clave específica. A diferencia del Singleton, el Multiton proporciona un punto de acceso global a instancias únicas basadas en una clave. 
+
+H-> patrón de diseño composite
+El patrón de diseño Composite se utiliza para tratar tanto a los objetos individuales como a las agrupaciones de objetos de la misma manera. Proporciona una estructura jerárquica donde los objetos individuales y los grupos de objetos se tratan de manera uniforme. 
+
+I-> patrón de diseño proxy
+El patrón de diseño Proxy se utiliza para controlar el acceso a un objeto mediante la creación de un objeto intermediario que actúa como representante del objeto original. El Proxy proporciona una interfaz idéntica al objeto original, lo que permite realizar las mismas operaciones, pero también puede agregar lógica adicional, como la verificación de permisos, la carga perezosa o el almacenamiento en caché. 
+
+J-> patrón de diseño abstract factory
+El patrón de diseño Abstract Factory (Fábrica Abstracta) proporciona una interfaz para crear familias de objetos relacionados sin especificar las clases concretas de esos objetos. Esto permite que el código cliente trabaje con las interfaces abstractas, desacoplándolo de las implementaciones concretas.
+
+K-> patrón de diseño interpreter
+El patrón de diseño Interpreter se utiliza para definir una gramática para un lenguaje y proporcionar un intérprete para evaluar expresiones en ese lenguaje. El intérprete analiza y evalúa las expresiones según las reglas definidas en la gramática. 
+
+L-> patrón de diseño adapter
+El patrón de diseño Adapter (Adaptador) se utiliza para convertir la interfaz de una clase en otra interfaz que el cliente espera. Permite que clases incompatibles trabajen juntas mediante la introducción de un adaptador que actúa como intermediario entre el cliente y la clase existente. El adaptador traduce las solicitudes del cliente a un formato que la clase existente puede entender. 

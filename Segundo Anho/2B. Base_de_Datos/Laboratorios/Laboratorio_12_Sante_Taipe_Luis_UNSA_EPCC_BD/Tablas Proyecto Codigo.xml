@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<!-- Active URL: https://ondras.zarovi.cz/sql/demo/ -->
+<sql>
+<datatypes db="mysql">
+	<group label="Numeric" color="rgb(238,238,170)">
+		<type label="Integer" length="0" sql="INTEGER" quote=""/>
+	 	<type label="TINYINT" length="0" sql="TINYINT" quote=""/>
+	 	<type label="SMALLINT" length="0" sql="SMALLINT" quote=""/>
+	 	<type label="MEDIUMINT" length="0" sql="MEDIUMINT" quote=""/>
+	 	<type label="INT" length="0" sql="INT" quote=""/>
+		<type label="BIGINT" length="0" sql="BIGINT" quote=""/>
+		<type label="Decimal" length="1" sql="DECIMAL" re="DEC" quote=""/>
+		<type label="Single precision" length="0" sql="FLOAT" quote=""/>
+		<type label="Double precision" length="0" sql="DOUBLE" re="DOUBLE" quote=""/>
+	</group>
+
+	<group label="Character" color="rgb(255,200,200)">
+		<type label="Char" length="1" sql="CHAR" quote="'"/>
+		<type label="Varchar" length="1" sql="VARCHAR" quote="'"/>
+		<type label="Text" length="0" sql="MEDIUMTEXT" re="TEXT" quote="'"/>
+		<type label="Binary" length="1" sql="BINARY" quote="'"/>
+		<type label="Varbinary" length="1" sql="VARBINARY" quote="'"/>
+		<type label="BLOB" length="0" sql="BLOB" re="BLOB" quote="'"/>
+	</group>
+
+	<group label="Date &amp; Time" color="rgb(200,255,200)">
+		<type label="Date" length="0" sql="DATE" quote="'"/>
+		<type label="Time" length="0" sql="TIME" quote="'"/>
+		<type label="Datetime" length="0" sql="DATETIME" quote="'"/>
+		<type label="Year" length="0" sql="YEAR" quote=""/>
+		<type label="Timestamp" length="0" sql="TIMESTAMP" quote="'"/>
+	</group>
+	
+	<group label="Miscellaneous" color="rgb(200,200,255)">
+		<type label="ENUM" length="1" sql="ENUM" quote=""/>
+		<type label="SET" length="1" sql="SET" quote=""/>
+		<type label="Bit" length="0" sql="bit" quote=""/>
+	</group>
+</datatypes><table x="149" y="155" name="Profesor">
+<row name="DNI_Profesor" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Telefono_Profesor" row="DNI_Profesor" />
+<relation table="Correo_Profesor" row="DNI_Profesor" />
+</row>
+<row name="Nombre" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<row name="PrimerApellido" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<row name="SegundoApellido" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Fecha_Nacimiento" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Especialidad_Investigacion" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Profesor</part>
+</key>
+</table>
+<table x="63" y="40" name="Telefono_Profesor">
+<row name="DNI_Profesor" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Telefono" null="1" autoincrement="0">
+<datatype>INTEGER(8)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Profesor</part>
+</key>
+</table>
+<table x="376" y="41" name="Correo_Profesor">
+<row name="DNI_Profesor" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Correo_Electronico" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Profesor</part>
+</key>
+</table>
+<table x="830" y="207" name="Alumno">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Telefono_Alumno" row="DNI_Alumno" />
+<relation table="Correo_Alumno" row="DNI_Alumno" />
+</row>
+<row name="Fecha_Nacimiento" null="1" autoincrement="0">
+<datatype>DATE(10)</datatype>
+<default>NULL</default></row>
+<row name="Nombre" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="primer_Apellido" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<row name="Segundo_Apellido" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="1023" y="139" name="Becario">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Alumno" row="DNI_Alumno" />
+</row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="1029" y="231" name="No_Becario">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Alumno" row="DNI_Alumno" />
+</row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="603" y="47" name="Telefono_Alumno">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Telefono" null="1" autoincrement="0">
+<datatype>INTEGER(8)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="838" y="48" name="Correo_Alumno">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Correo_Electronico" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="1007" y="344" name="Pension">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="No_Becario" row="DNI_Alumno" />
+</row>
+<row name="Costo_Pension" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+</key>
+</table>
+<table x="483" y="339" name="Proyecio_Investigacion">
+<row name="Codigo_Proyecto" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="ProfesorProyecto" row="Codigo_Proyecto" />
+<relation table="AlumnoProyecto" row="Codigo_Proyecto" />
+</row>
+<row name="Presupuesto" null="1" autoincrement="0">
+<datatype>INTEGER(100)</datatype>
+<default>NULL</default></row>
+<row name="fecha_final" null="1" autoincrement="0">
+<datatype>DATE(10)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+<table x="395" y="205" name="ProfesorProyecto">
+<row name="DNI_Profesor" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Profesor" row="DNI_Profesor" />
+</row>
+<row name="Codigo_Proyecto" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Profesor</part>
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+<table x="604" y="203" name="AlumnoProyecto">
+<row name="DNI_Alumno" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Alumno" row="DNI_Alumno" />
+</row>
+<row name="Codigo_Proyecto" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>DNI_Alumno</part>
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+<table x="193" y="382" name="Investigacion_Basica">
+<row name="Codigo_Proyecto" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Proyecio_Investigacion" row="Codigo_Proyecto" />
+</row>
+<row name="NombreUniversidad" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+<table x="216" y="520" name="Investigacion_Aplicada">
+<row name="Codigo_Proyecto" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Proyecio_Investigacion" row="Codigo_Proyecto" />
+</row>
+<row name="NombreEmpresa" null="1" autoincrement="0">
+<datatype>VARCHAR(100)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+<table x="843" y="464" name="Hito">
+<row name="Numero_Hito" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="FechaInicio" null="1" autoincrement="0">
+<datatype>DATE(10)</datatype>
+<default>NULL</default></row>
+<row name="FechaFin" null="1" autoincrement="0">
+<datatype>DATE(10)</datatype>
+<default>NULL</default></row>
+<row name="Objetivos" null="1" autoincrement="0">
+<datatype>VARCHAR(1000)</datatype>
+<default>NULL</default></row>
+<row name="Codigo_Proyecto" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Proyecio_Investigacion" row="Codigo_Proyecto" />
+</row>
+<key type="PRIMARY" name="">
+<part>Numero_Hito</part>
+<part>Codigo_Proyecto</part>
+</key>
+</table>
+</sql>

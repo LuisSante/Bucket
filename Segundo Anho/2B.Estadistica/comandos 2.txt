@@ -1,0 +1,16 @@
+A=matrix(0,3,4)
+una matriz vacia de 3*4
+fix(A)
+llenar la matriz
+data.frame : poder contener distintos tipos de datos
+table()=calcula frencuencia de los datos
+fi=table(xi)
+prop.table = halla frecuencia relativa
+pie()=diagrama de pastel
+round = redondea
+cumsum= suma acumulada
+cbind
+main(titulo)
+col = color
+labels =etiqueta
+cex = espacio entre leyenda y grafico

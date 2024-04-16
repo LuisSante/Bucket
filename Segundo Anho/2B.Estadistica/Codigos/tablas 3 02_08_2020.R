@@ -1,0 +1,5 @@
+x=c(3310 , 3355 , 3450 , 3480 , 3480 , 3490 , 3520 , 3540 , 3550 , 3650 , 3730 , 3925)
+quantile(x)
+boxplot(x, col="purple",horizontal=TRUE)
+grid()
+boxplot.stats(x)$out

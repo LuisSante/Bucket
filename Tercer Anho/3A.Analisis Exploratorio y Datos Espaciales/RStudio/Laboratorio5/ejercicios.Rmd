@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+
+---
+###simula una Cmarkov
+una CM es $X_{1}, X_{2}, \ldots $
+#init = distribucion inicial
+#P = matriz de transicicon
+#labels = estados
+#n = numero de pasos
+```{r}
+markov = function(init,P,n,labels){
+  if(missing(labels)) labels<=1:length(init)
+simlist = numeric(n+1)
+states = 1:length(init)
+simlist[1] = sample(state,1 , prob = init)
+for(i in 2:(n+1))
+  {simlist[i] = sample(states,1,prob=P[simlist[i-1],]) }
+labels[simlist]
+}
+```

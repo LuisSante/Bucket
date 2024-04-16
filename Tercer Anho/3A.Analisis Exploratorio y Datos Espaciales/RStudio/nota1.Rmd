@@ -1,0 +1,119 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## Distribucion uniforme variada(continuo)
+\begin{align}
+f(x,y) = 
+\end{cases}
+\frac{1}{(b-a)(d-c)},\quad \mbox{si} \ \  a\leq x \leq b , \quad c\leq y \leq d\\
+0,\quad \mbox{cc}
+\end{align}
+El vector aleatorio $(X,Y)$ son independientes, esto es, la funcion densidad de probabilidad es el producto de las densidades marginales 
+\[
+f(x,y) = f_{X}(x)f_{Y}(y)
+\]
+La superficie $f(x,y)$
+
+```{r}
+a = 1 ; b = 2 ; c = 3 ; d = 5 ; n=1000
+x1 = runif(1000,a,b) #variables aleatorias
+y1 = runif(1000,c,d)
+#vector de variables aleatorias(ordenadas antes)
+cbind(x1,y1)
+plot(x1,y1 ,  col= 2  , lwd = 2 , las = 1 , pch =21)
+```
+
+Matriz de varianza-covarianza es dada por
+\[
+  var[X,Y] = 
+  \left[
+  \begin{array}{rr}
+  var[X] & cov[X,Y] \\
+  cov[Y,X] & var[Y] \\
+  \end{array}
+  \right]
+  =
+  \left[
+  \begin{array}{rr}
+  var[X] & 0 \\
+  0 & var[Y] \\
+  \end{array}
+  \right]
+  \left[
+  \begin{array}{rr}
+  \frac{(b-a)^2}{12} & 0 \\
+  0 & \frac{(d-c)^2}{12} \\
+  \end{array}
+  \right]
+\]
+```{r}
+cov(x1,y1)
+var(x1);
+var(y1)
+c(mean(x1),mean(y1))
+```
+
+```{r}
+x1 = seq(1 , 2 , length.out = 200)
+y1 = seq(3, 5 , length.out = 200)
+fxy1 = function(x,y){1/((b-a)*(d-c))}
+#
+z = outer(x1,y1,fxy1)
+#generar curvas de nivel
+##contour(x2,x2,z)
+```
+
+
+```{r}
+#generacion de variables aleatorias(X,Y)
+#normal bivariada
+library(MASS)
+#para ,a funcion densidad f(x,y)
+library(mvtnorm)
+#--------------------------------------#
+#generando variables aleatorias
+n1 = 1000
+#vector de medias
+mvec = c(1,1)
+#matriz de var y cov
+sigvec = matrix(c(2,2,2,3),2)
+xvec = rmvnorm(n1 , mean = mvec , sigma = sigvec)
+
+```
+
+calcular las medias, y var y cov
+```{r}
+#medias
+apply(xvec,2,mean)
+#covarianza
+cov(xvec)
+plot(xvec[,1] , xvec[,2] , col = "red" , lwd= 2 , pch=19 , las =1)
+```
+
+
+```{r}
+#Curvas de nivel
+x1 = x2 = seq(-5 , 5 , 0.1)
+mul =c(0,0)
+sigma1 = matrix(c(1 , .5 , .5 , 1),2)
+fxy = function(x,y){dmvnorm(cbind(x,y),mvec,sigvec)}
+#
+z = outer(x2,x2,fxy)
+#generar curvas de nivel
+contour(x2,x2,z)
+#xnorm = mv
+```
+
+```{r}
+persp(x2 ,y2, z, theta=-30 , phi = 25 , shade = 0.75 , col="lightblue" , 
+expand = 0.5 , r=2 )
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.

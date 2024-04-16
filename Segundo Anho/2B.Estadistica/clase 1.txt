@@ -1,0 +1,16 @@
+estadistica. 
+rango : R = xmax - xmin
+numero de intervalos : k = 1 + 3.3log(n)
+Longitud de los intervalos : L = R/k -> "redondeo por exceso"
+
+" se redondea por exceso " [se hace eso para no perder informacion] <-> son enteros
+si es decimal 5.27 = 5.3    
+	      5.211 = 5.3
+ 	      5.211 = 5.22
+
+Dispercion 
+Mas plana mas dispersa
+
+Media Aritmetica
+u = media poblacional
+x(raya arriba) = media muestral	

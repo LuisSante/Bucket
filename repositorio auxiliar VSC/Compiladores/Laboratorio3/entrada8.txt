@@ -1,0 +1,6 @@
+//archivo de texto plano en c++
+int i=0;
+while(i != 5){
+    i++;
+}
+return 1;

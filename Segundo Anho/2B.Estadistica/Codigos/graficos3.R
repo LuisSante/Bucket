@@ -1,0 +1,8 @@
+fi=c(3,2,1,5,7,2)
+xi=c("5min","6min","7min","8min","9min","10min")
+pi=round((prop.table(fi)*100),2)
+cpi=paste(pi,"%",sep=" ")
+df=data.frame(xi,fi)
+color=c("chartreuse3","powderblue","royalblue3","hotpink1","red3","yellow3")
+pie(fi,labels=cpi,col=color,main="Gráfico de sectores circulares")
+legend("topright",xi,cex=1.2,fill=color)

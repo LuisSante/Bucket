@@ -1,0 +1,46 @@
+DROP DATABASE IF EXISTS `CENTRAL_BIBLIOTECA`;
+
+CREATE DATABASE `CENTRAL_BIBLIOTECA`;
+
+USE `CENTRAL_BIBLIOTECA`;
+	
+CREATE TABLE `BIBLIOTECA` (
+  `ID_biblioteca` INTEGER PRIMARY KEY,
+  `nombre` VARCHAR(50),
+  `ubicacion` VARCHAR(50)
+);
+	
+CREATE TABLE `LIBRO` (
+  `ISBN` INTEGER PRIMARY KEY,
+  `tituloenIngles` VARCHAR(50),
+  `tituloenEspañol` VARCHAR(50),
+  `año` INTEGER,
+  `ID_biblioteca` INTEGER,
+  `CODIGO_categoria` INTEGER
+);
+	
+CREATE TABLE `AUTOR` (
+  `ID_autor` INTEGER PRIMARY KEY,
+  `nombres` VARCHAR(50),
+  `apellidos` VARCHAR(50),
+  `nacionalidad` VARCHAR(50)
+);
+	
+CREATE TABLE `CATEGORIA` (
+  `CODIGO_categoria` INTEGER PRIMARY KEY,
+  `nombre` VARCHAR(50),
+  `descripcion` VARCHAR(50),
+  `ID_biblioteca` INTEGER 
+);
+	
+CREATE TABLE `libro_autor` (
+  `ISBN` INTEGER,
+  `ID_autor` INTEGER,
+  PRIMARY KEY (`ISBN`, `ID_autor`)
+);
+
+ALTER TABLE `LIBRO` ADD FOREIGN KEY (ID_biblioteca) REFERENCES `BIBLIOTECA` (`ID_biblioteca`);
+ALTER TABLE `LIBRO` ADD FOREIGN KEY (CODIGO_categoria) REFERENCES `CATEGORIA` (`CODIGO_categoria`);
+ALTER TABLE `CATEGORIA` ADD FOREIGN KEY (ID_biblioteca) REFERENCES `BIBLIOTECA` (`ID_biblioteca`);
+ALTER TABLE `libro_autor` ADD FOREIGN KEY (ISBN) REFERENCES `LIBRO` (`ISBN`);
+ALTER TABLE `libro_autor` ADD FOREIGN KEY (ID_autor) REFERENCES `AUTOR` (`ID_autor`);

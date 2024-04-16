@@ -1,0 +1,8 @@
+dado = sample(1:6 , size = 1)
+print(dado)
+dado = sample(1:6 , size = 4)
+print(dado)
+dado = sample(1:6 , size = 6)
+print(dado) 
+dado = sample(1:6 , size = 10, replace = TRUE)
+print(dado) 

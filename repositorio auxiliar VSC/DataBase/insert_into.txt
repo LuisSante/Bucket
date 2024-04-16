@@ -1,0 +1,102 @@
+INSERT INTO persona VALUES(72745482,'Maria','maria@gmail.com','12345678');
+INSERT INTO persona VALUES(72745483,'Francisco','francheso@gmail.com','12345679');
+INSERT INTO persona VALUES(72745484,'María','mariac@gmail.com','12345680');
+INSERT INTO persona VALUES(72745485,'Pablo ','pablo@gmail.com','12345681');
+INSERT INTO persona VALUES(72745486,'Maria','maria_123@gmail.com','12345682');
+INSERT INTO persona VALUES(72745487,'David','david@gmail.com','12345683');
+INSERT INTO persona VALUES(72745488,'Luis ','lsante@gmail.com','12345684');
+INSERT INTO persona VALUES(72745489,'Luis ','lsantet@gmail.com','12345685');
+INSERT INTO persona VALUES(72745490,'María','maria_sf@gmail.com','12345686');
+INSERT INTO persona VALUES(72745491,'Adrian','adrian@gmail.com','12345687');
+INSERT INTO persona VALUES(72745492,'Damian','damian@gmail.com','12345688');
+INSERT INTO persona VALUES(72745493,'Francisco','franchesco@gmail.com','12345689');
+INSERT INTO persona VALUES(72745494,'Maria','mafer@gmail.com','12345690');
+INSERT INTO persona VALUES(72745495,'Daniel','daniel@gmail.com','12345691');
+INSERT INTO persona VALUES(72745496,'Manuel ','manuel@gmail.com','12345692');
+INSERT INTO persona VALUES(72745497,'Francisco','bolog@gmail.com','12345693');
+INSERT INTO persona VALUES(72745498,'Julia','julia@gmail.com','12345694');
+INSERT INTO persona VALUES(72745499,'Maria','mafer_123@gmail.com','12345695');
+INSERT INTO persona VALUES(72745500,'Carmen','carmen@gmail.com','12345696');
+INSERT INTO persona VALUES(72745501,'Mateo','mateo@gmail.com','12345697');
+INSERT INTO persona VALUES(72745502,'Joao','joao@gmail.com','12345698')
+INSERT INTO persona VALUES(72745503,'Luzmila','luzmila@gmail.com','12345699')
+INSERT INTO persona VALUES(72745504,'Cesar','cesar@gmail.com','12345700')
+INSERT INTO persona VALUES(72745505,'Mario','mario@gmail.com','12345701')
+INSERT INTO persona VALUES(72745506,'Luigi','luigi@gmail.com','12345702')
+
+INSERT INTO participante VALUES(72745482,'Universidad Nacional de San Agustin',1);
+INSERT INTO participante VALUES(72745483,'Universidad Nacional de San Agustin',2);
+INSERT INTO participante VALUES(72745484,'Universidad Nacional de San Agustin',3);
+INSERT INTO participante VALUES(72745486,'Universidad Nacional de San Agustin',5);
+INSERT INTO participante VALUES(72745487,'Universidad Catolica de Santa Maria',2);
+INSERT INTO participante VALUES(72745488,'Universidad Catolica de Santa Maria',3);
+INSERT INTO participante VALUES(72745491,'Universidad Catolica de Santa Maria',2);
+INSERT INTO participante VALUES(72745492,'Universidad Catolica de Santa Maria',1);
+INSERT INTO participante VALUES(72745493,'Universidad Catolica San Pablo',1);
+INSERT INTO participante VALUES(72745494,'Universidad Catolica San Pablo',2);
+INSERT INTO participante VALUES(72745497,'Universidad Catolica San Pablo',5);
+INSERT INTO participante VALUES(72745498,'Universidad Catolica San Pablo',1);
+INSERT INTO participante VALUES(72745499,'Universidad de la Salle',2);
+INSERT INTO participante VALUES(72745500,'Universidad de la Salle',3);
+INSERT INTO participante VALUES(72745501,'Universidad de la Salle',4);
+INSERT INTO participante VALUES(72745495,'Universidad de Ingenieria y Tecnologia' ,5);
+INSERT INTO participante VALUES(72745496,'Universidad de Ingenieria y Tecnologia' ,3);
+INSERT INTO participante VALUES(72745490,'Universidad de Ingenieria y Tecnologia' ,4);
+INSERT INTO participante VALUES(72745485,'Universidad de Ingenieria y Tecnologia' ,1);
+
+INSERT INTO administrador VALUES(72745489);
+
+INSERTO INTO participante_concurso VALUES(72745499,1);
+INSERTO INTO participante_concurso VALUES(72745493,2);
+INSERTO INTO participante_concurso VALUES(72745490,3);
+INSERTO INTO participante_concurso VALUES(72745497,4);
+INSERTO INTO participante_concurso VALUES(72745482,5);
+
+INSERT INTO programa VALUES(1,'2021-10-1','2021-10-2', 'descripcion1' , 72745489 , 1 , '2021' , 'Semana de la Computacion: Una mirada al futuro ');
+INSERT INTO programa VALUES(2,'2021-10-3','2021-10-4', 'descripcion2' , 72745489 , 2 , '2021' , 'Semana de la Computacion: Descubriendo el futuro ');
+INSERT INTO programa VALUES(3,'2021-10-5','2021-10-6', 'descripcion3' , 72745489 , 3 , '2021' , 'Semana de la Computacion: Imaginando Algoritmos ');
+INSERT INTO programa VALUES(4,'2021-10-7','2021-10-8', 'descripcion4' , 72745489 , 4 , '2021' , 'Semana de la Computacion: Trabajando por nuestros sueños ');
+INSERT INTO programa VALUES(5,'2021-10-9','2021-10-10', 'descripcion5' , 72745489 , 5 , '2021' , 'Semana de la Computacion: Hello World ');
+
+INSERT INTO sesion VALUES(1, '2021-10-1' , '11:30' , ' ' , 1);
+INSERT INTO sesion VALUES(2, '2021-10-3' , '11:30' , ' ' , 2);
+INSERT INTO sesion VALUES(3, '2021-10-5' , '11:30' , ' ' , 3);
+INSERT INTO sesion VALUES(4, '2021-10-7' , '11:30' , ' ' , 4);
+INSERT INTO sesion VALUES(5, '2021-10-9' , '11:30' , ' ' , 5);
+
+INSERT INTO evento VALUES (1, 'Inteligencia Artificial', 'La inteligencia artificial es la habilidad de una máquina de presentar las mismas capacidades que los seres humanos, como el razonamiento, el aprendizaje, la creatividad y la capacidad de planear.', 72745489);
+INSERT INTO evento VALUES (2, 'Computacion Grafica', 'La computación gráfica o gráficos por ordenador es el campo de la informática visual, donde se utilizan computadoras tanto para generar imágenes visuales sintéticamente como integrar o cambiar la información visual y espacial probada del mundo real.', 72745489);
+INSERT INTO evento VALUES (3, 'Diseño Web', 'El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web.', 72745489);
+INSERT INTO evento VALUES (4, 'Ciberseguridad', 'La ciberseguridad es la práctica de proteger sistemas, redes y programas de ataques digitales.', 72745489);
+INSERT INTO evento VALUES (5, 'Big Data', 'big data es un término que hace referencia a conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente.', 72745489);
+
+INSERT INTO sesion_evento VALUES(1,1);
+INSERT INTO sesion_evento VALUES(2,2);
+INSERT INTO sesion_evento VALUES(3,3);
+INSERT INTO sesion_evento VALUES(4,4);
+INSERT INTO sesion_evento VALUES(5,5);
+
+INSERT INTO ponencia (1, 'Inteligencia Artificial');
+INSERT INTO ponencia (2, 'Computacion Grafica');
+INSERT INTO ponencia (3, 'Diseño Web');
+INSERT INTO ponencia (4, 'Ciberseguridad');
+INSERT INTO ponencia (5, 'Big Data');
+
+INSERT INTO concurso VALUES(1, 100, 'Requisitos para concursar concurso1...', 12345678, 'Luis');
+INSERT INTO concurso VALUES(2, 50, 'Requisitos para concursar concurso2...', 12345683, 'Luis');
+INSERT INTO concurso VALUES(3, 20, 'Requisitos para concursar concurso3...', 12345687, 'Luis');
+INSERT INTO concurso VALUES(4, 80, 'Requisitos para concursar concurso4...', 12345690, 'Luis');
+INSERT INTO concurso VALUES(5, 80, 'Requisitos para concursar concurso5...', 72745501, 'Luis');
+
+INSERT INTO ponente VALUES(60845195,'Jorge Valdano','Doctor','descripcion para ponente1...','Inteligencia Artificial','valdano@gmail.com',957145852,72745489);
+INSERT INTO ponente VALUES(60845196,'Oscar Ruggeri','Doctor','descripcion para ponente2...','Computacion Grafica','ruggeri@gmail.com',996677881,72745489);
+INSERT INTO ponente VALUES(60845197,'Martin Burruchuaga','Doctor','descripcion para ponente3...','Diseño Web','burruchuaga@gmail.com',987456321,72745489);
+INSERT INTO ponente VALUES(60845198,'Pablo Vignolo','Doctor','descripcion para ponente...','Ciberseguridad','vignolo@gmail.com',996633765,72745489);
+INSERT INTO ponente VALUES(60845199,'Martin Liberman','Doctor','descripcion para ponente5...','Big Data','liberman@gmail.com',951358123,72745489);
+
+INSERT INTO evento_ponente VALUES(60845195,1);
+INSERT INTO evento_ponente VALUES(60845196,2);
+INSERT INTO evento_ponente VALUES(60845197,3);
+INSERT INTO evento_ponente VALUES(60845198,4);
+INSERT INTO evento_ponente VALUES(60845199,5);
+

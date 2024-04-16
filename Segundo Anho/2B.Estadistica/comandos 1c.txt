@@ -1,0 +1,11 @@
+c en R
+es concatenacion
+: -> (2:15) 
+sucesion del 2 al 15,() para mostrar
+type:
+"l": letra l -> linea continua
+lwd = grosor
+grid=rejilla
+dibujos:
+plot : dubuja
+barpolt : grafico de barras

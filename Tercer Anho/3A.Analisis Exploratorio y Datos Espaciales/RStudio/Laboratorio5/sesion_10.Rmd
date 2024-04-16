@@ -1,0 +1,187 @@
+---
+title: "Cadenas de Markov a largo plazo"
+output: html_notebook
+---
+## Distribucion limite
+de acuerdo con la definicion 
+\[
+\lim_{n \rightarrow \infty} P_{ij}^{n} = \lambda_{j}
+\]
+### ejemplo del grafo ciclico 
+```{r}
+A1 = matrix(c(0,1/2,0,0,1/2, 
+              1/2,0,1/2,0,0,
+              0,1/2,0,1/2,0,
+              0,0,1/2,0,1/2,
+              1/2,0,0,1/2,0),5,5, byrow = T)
+# se etiqueta los nombres a las filas y columnas
+rownames(A1) = colnames(A1) =0:4
+A1
+```
+Para obtener la distribucion limite se tendria que elevar a una potencia $n \rightarrow \infty$ 
+```{r}
+# A: matriz
+# k:potencia a la cual se elevara la matriz
+matrixpower = function(A,k){
+	if (k == 0) return (diag(dim(A)[1])) 
+	if (k == 1) return(A)
+	if (k > 1) return(A %*% matrixpower(A, k-1))
+ }
+```
+###simula una Cmarkov
+una CM es $X_{1}, X_{2}, \ldots $
+```{r}
+matrixpower(A1,10); matrixpower(A1,50); matrixpower(A1,200)
+```
+```{r}
+# init: distribucion inicial
+# P: matriz de transicion
+# labels: estados 
+# n: numero de pasos
+markov = function(init,P,n,labels) { 
+	if (missing(labels)) labels <- 1:length(init)
+simlist = numeric(n+1)
+states = 1:length(init)
+simlist[1] = sample(states,1,prob=init)
+for (i in 2:(n+1)) 
+	{ simlist[i] = sample(states,1,prob=P[simlist[i-1],]) }
+labels[simlist]
+}
+```
+
+### Ejemplo: ir al gimnasio
+> Después del trabajo, Angela va al gimnasio y hace aeróbicos, pesas,
+yoga, o recibe un masaje. Cada día, Angela decide su rutina de ejercicios basándose en lo que hizo el día anterior de acuerdo con la matriz de transición de Markov.
+
+```{r}
+P=matrix(c(0.1,0.2,0.4,0.3,0.4,0,0.4,0.2,0.3,0.3,0,0.4,0.2,0.1,0.4,0.3),
+  nrow=4, byrow=TRUE)
+rutina = c("Aerobics","Massage","Weights","Yoga")
+rownames(P) = colnames(P) = rutina ; P
+```
+> Encuentre la distribucion limite de la cadena de markov
+
+Para obtener la distribucion limite de la cadena de Markov se tiene
+\[
+\lim_{n \rightarrow +\infty}P{X_{n}=j} = \lambda_{j}
+\]
+Para obtener $\lambda_j$ se puede usar simulacion Monte Carlo
+
+```{r}
+# comportamiento de la cadena de Markov
+#distribucion inicial
+init = c(1/4,1/4,1/4,1/4) 
+estados = c("a","m","w","y")
+# 
+cmarkov1 = markov(init,P,50,estados)
+cmarkov1
+table(cmarkov1)/50
+# tiempo (pasos)
+steps = 1000000
+cmarkov2 = markov(init,P,steps,estados)
+table(cmarkov2)/steps
+```
+Usando el programa `matrixpower`
+```{r}
+matrixpower(P,10^3)
+#matrixpower(P,10^4)
+```
+
+## Distribucion Estacionaria
+Una distribucion de probabilidad $\pi  $
+
+### Ejemplo: clima
+
+> Some winter days in Minnesota it seems like the snow will never stop. A Minnesotan’s view of winter might be described by the following transition matrix for a weather Markov chain, where r, s, and c denote rain, snow, and clear, respectively.
+
+```{r}
+A3 = matrix(c(0.2,0.6,0.2,0.1,0.8,0.1,0.1,0.6,0.3),3,3,byrow = T)
+rownames(A3) = colnames(A3) = c("r","s","c") 
+A3
+# distribucion inicial alpha 
+alfa = c(0.5,0.5,0.0)
+```
+La matriz P es una matriz regular para $n=1$. Para obtener la distribucion limite 
+```{r}
+matrixpower(A3,10); matrixpower(A3,50); matrixpower(A3,100)
+```
+Luego la distribucion estacionaria para la cadena de Markov es igual a  
+\[
+\pi = (0.1111111, 0.75, 0.1388889)
+\]
+verificado si $pi$ es una distribucion estacionaria, $\pi = \pi P$
+```{r}
+pi1 = c(0.1111111, 0.75, 0.1388889); pi1
+pi1%*%A3
+```
+### Distribucion estacionaria y autovalor de $P$
+Un autovector a la derecha, ${\boldsymbol x}$ es un vector columna
+\[
+M {\boldsymbol x} = \lambda {\boldsymbol x} 
+\]
+Un autovector a la izquierda
+\[
+{\boldsymbol y}^{\top} M  =\mu {\boldsymbol y}^{\top} 
+\]
+Un autovector a la izquierda de $M$ es un autovector a la derecha de $M^{\top}$
+
+Si ${\pi}$ es la distribucion estacionaria de la cadena de Markov esta debe de satisfacer 
+\[
+\pi = \pi P,
+\]
+entonces, $\pi$ es un autovector a la izquierda de P en que el autovalor es igual a $\lambda=1$. 
+
+Si la cadena de Markov tiene una unica distribucion estacionaria entonces la distribucion estacionaria es un autovector de $P^\top$ que corresponde al autovalor $\lambda=1$
+
+### Ejemplo: clima (autovector)
+Para obtener los autovalores y autovector  respectivo se usa el comando `eigen`
+```{r}
+A3
+# 
+result1 = eigen(A3)
+# autovalores
+result1$values 
+# autovectores
+result1$vectors 
+# la transpuesta de la matriz de transicion P
+result2 = eigen(t(A3))
+# autovalores
+result2$values 
+# autovectores
+result2$vectors 
+```
+Se normaliza el autovector correspondiente a la matriz $P^\top$
+```{r}
+# autovector de lambda=1 correspondiente a t(P)
+result2$vectors[,1]
+# NORMALIZANDO
+pi2 = result2$vectors[,1]/sum(result2$vectors[,1])
+```
+se verifica entonces 
+```{r}
+pi2
+pi2%*%A3
+```
+
+Funcion para calcular la distribucion estacionaria 
+```{r}
+stationary = function(P){
+x = eigen(t(P))$vectors[,1]
+as.double(x/sum(x))
+}
+```
+
+Matrix regular
+
+```{r}
+P = matrix(c(0.4,0.6,0,0,0,0,1,0,0,0,0,1,1,0,0,0),4,4,byrow = T)
+P
+determinante = function(P){
+  P.d <- det(P)
+}
+```
+
+```{r}
+determinante(P);
+```
+

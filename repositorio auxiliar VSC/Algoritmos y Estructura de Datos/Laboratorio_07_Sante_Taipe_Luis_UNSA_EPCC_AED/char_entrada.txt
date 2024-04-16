@@ -1,0 +1,9 @@
+char
+Q
+G 
+B 
+C 
+E 
+T 
+U 
+0

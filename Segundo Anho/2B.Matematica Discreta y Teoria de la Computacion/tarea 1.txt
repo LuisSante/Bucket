@@ -1,0 +1,6 @@
+diseñar una gramatica de estructura de frase (G) tal que 
+L(G) conste de las cadenas que se reconocen como en hora 
+de un reloj digital
+09,15 es una hora de reloj digital
+21,00 es una hora de reloj digital
+21,80 no es una hora de reloj digital

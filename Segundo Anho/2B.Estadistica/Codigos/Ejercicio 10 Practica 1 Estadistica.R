@@ -1,0 +1,11 @@
+xi=Pernos$`Libras-Fuerza`
+fi = table(xi)
+hi=round((prop.table(fi)),2)
+pi=round((prop.table(fi)*100),2)
+Fi=cumsum(fi)
+Hi=cumsum(hi)
+Dist=cbind(fi,hi,Fi,Hi)
+print(Dist)
+total = length(xi)
+print("Total = ")
+print(total)

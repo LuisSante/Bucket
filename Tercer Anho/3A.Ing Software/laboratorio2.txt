@@ -1,0 +1,76 @@
+create database laboratorio2;
+use laboratorio2;
+show tables;
+
+create table provincias(
+	codpro varchar(2) not null,
+    nombre varchar(30) not null,
+    primary key(codpro)
+);
+describe provincias;
+
+create table pueblos(
+	codpue varchar(5) not null,
+    nombre varchar(40) not null,
+    codpro varchar(2) not null,
+    constraint pueblo_prov foreign key(codpro) references provincias(codpro),
+    constraint pueblos_pk primary key (codpue, codpro)
+);
+describe pueblos;
+
+create table clientes(
+	codcli int not null,
+    nombre varchar(50) not null,
+    direccion varchar(50) not null, 
+    codpostal varchar(5),
+    codpue varchar(5) not null,
+    constraint cliente_pue foreign key(codpue) references pueblos(codpue),
+    constraint cliente_pk primary key (codcli, codpostal , codpue)
+);
+describe clientes;
+
+create table vendedores(
+	codven int not null,
+    nombre varchar(50) not null,
+    direccion varchar(50) not null,
+    codpostal varchar(6),
+    codpue varchar(5) not null,
+    codjefe int not null,
+    constraint vendedores_pue foreign key(codpue) references pueblos(codpue),  
+    constraint vendedores_pk primary key(codven , codpue)
+);
+describe vendedores;
+
+create table articulos(
+	codart varchar(8) not null,
+    descrip varchar(40) not null,
+    precio int not null,
+    stock int ,
+    stock_min int,
+    primary key(codart)
+);
+describe articulos;
+
+create table facturas(
+	codfac int not null,
+    fecha date not null,
+    codcli int ,
+    codven int,
+    iva int,
+    dto int,
+    constraint facturas_cli foreign key(codcli) references clientes(codcli),
+    constraint facturas_pk primary key(codfac , codcli)
+);
+describe facturas;
+
+create table lineas_fac(
+	codfac int not null,
+    linea int not null,
+    cant int,
+    codart varchar(8) not null,
+    precio decimal(7,2),
+    dto int,
+    constraint lineas_fac_art foreign key(codart) references articulos(codart),
+    constraint lineas_fac_pk primary key(codfac , codart)
+);
+describe lineas_fac;

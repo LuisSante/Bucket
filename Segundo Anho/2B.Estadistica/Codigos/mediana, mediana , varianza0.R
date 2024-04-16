@@ -1,0 +1,5 @@
+x=c(11,12,17)
+median(x)
+mean(x)
+var(x)
+sd(x)

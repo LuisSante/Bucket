@@ -1,0 +1,223 @@
+---
+title: "Tercera sesion: Probabilidad clasica y probabilidad condicional - lab B"
+output: html_notebook
+---
+#simulacion
+
+Se lanzan 2 dados y la suma sea 8
+```{r}
+n = 1000
+xs = numeric(n)
+for(i in 1:n){
+#realiza el lanzamiento de dados
+  trial = sample(1:6,2, replace = TRUE)
+#la suma sea igual a 8
+  if(sum(trial) == 8)
+    xs[i] = 1
+  else
+    xs[i] = 0
+}  
+#62 26 35 53 44
+#A: es suma
+#p() 
+#el verdadero valor es igual a 0.16666667
+mean(xs)
+```
+por medio del siguiente grafico se muestra la evolucion de **P(A)** en diferentes lanzamientos
+```{r}
+plot(1:n , cumsum(xs)/1:n , col="red" , type='l' , xlab = "Numero de lanzamientos" , ylab = "Probabilidad " , las=1)
+#aidicionando la recta horizontal que indica la probabilidad teorica 
+abline(h=5/36 , col="blue" , lwd=1.5)
+```
+# Problema de nacimientos
+Para programar cantidades grandes de los factoriales, una recomendacion es usar logaritmo neperiano. Usar el comando "lfactorial" proporciona el logaritmo natural del factorial
+```{r}
+  #?lfactorial
+n=60
+px = numeric(n)
+for(i in 1:n){
+  aux = lfactorial(365) - lfactorial(365 - i) - i*log(365)
+  px[i] = 1 - exp(aux)
+}
+cbind(1:n,round(px,3))
+plot(1:n , px , type='l' , las = 1 , xlab="numero de personas" , ylab="probabilidad", col="red")
+abline(h=1/2)
+```
+De una baraja de 52 cartas se seleccionan cartar al azar y a la vez
+Sea B el evento que la suma de las 3 cartas sea igual 15 
+```{r}
+n = 3000
+xs = numeric(n)
+for(i in 1:n){
+    #escoger cartas de diferente simbolo
+    trial_palos = sample(1:4 , 3 , replace= TRUE )
+    #si se llega a escoger del mismo palo entonces no hay repeticion
+    if(trial_palos[1] == trial_palos[2])
+        trial = sample(1:13 , 3 , replace = FALSE)
+    #si los palos son distintos no hay repeticion
+    else
+      trial = sample(1:13 , 3 , replace = TRUE)
+    if(sum(trial) == 15) 
+      xs[i] = 1 
+    else       xs[i] = 0
+}
+mean(xs)
+```
+
+ploteo
+```{r}
+plot(1:n , cumsum(xs)/1:n , col="blue" , type="l" , lwd=1.5 , las=1, xlab="numero de elecciones" , ylab = "probabilidad" , main = "Probabilidad en que 3 cartas sumen 15")
+```
+#Probabilidad Condicional
+
+Dos dados. Calcule la probabilidad que el primer dado es igual a dos dado que la suma de los dados sea 8, Considerando que los dados son equilibrados
+Se pide calcular 
+\begin{align}
+\end{align}
+```{r}
+n = 100
+iter = 0
+xs = numeric(n)
+while(iter < n){
+trial = sample(1:6 , 2 , replace = TRUE)
+  if(sum(trial)  == 8){
+    exito = if(trial[1] == 2) 1 
+  else 0
+  iter = iter + 1;
+  xs[iter]=exito
+  }
+}
+
+mean(xs)
+```
+```{r}
+plot(1:n , cumsum(xs)/1:n , type='l' , lwd = 2 , col = "red" , las = 1 , ylab = "probabilidad" , xlab = "lanzamientos")
+abline(h=1/5 , col="blue" , lwd=1.5)
+```
+
+
+Se lanza 5 monedas a la vez. calcule la probabilidad de obtener una cara en la primera y tercera moneda dado que el numero total de caras en el lanzamiento es igual a 4. Considere que las monedas son honestas
+
+```{r}
+#1 CARA
+#0 SELLO
+n = 10000
+iter = 0
+xs = numeric(n)
+while(iter < n){
+trial = sample(0:1 , 5 , replace=TRUE)
+  if(sum(trial) == 4){
+    exito = if(trial[1] == 1 && trial[3] == 1) 1
+  else 0
+  iter = iter + 1;
+  xs[iter] = exito
+  }
+}
+mean(xs)
+```
+```{r}
+plot(1:n , cumsum(xs)/1:n , type='l' , lwd = 2 , col = "red" , las = 1 , ylab = "probabilidad" , xlab = "lanzamientos")
+```
+```{r}
+##Variables aleatorios discretas
+##En el juego de la ruleta se tiene 38 resultados.En que los 18 primeros numeros son de color rojo, 18 numeros siguientes son de color negro y existen 2 opciones marcadas con 0 y 00
+
+##Valor esperado  de una v.a Discreta
+n = 50000
+xs = numeric(n)
+for(i in 1:n){
+  xs[i] = if(sample(1:38,1)<=18) 2 else -2
+}
+mean(xs)
+```
+
+```{r}
+plot(1:n , cumsum(xs)/1:n , type='l' , lwd = 2 , col = "red" , las = 1 , ylab = "probabilidad" , xlab = "lanzamientos")
+abline(h=-4/38 , col="blue" , lwd=1.5)
+```
+
+Para participar en este juego es necesario pagar 10 soles. El juego consiste en lanzar un dado y observar el resultado ademas
+
+-Si el resultado del dado es 1,2,3 ud pierde 10 soles
+-Si el resultado del dado es igual a 4,5 entonces se le devuelve los 10 soles
+-Si el resultado del dado es igual a 6 entonces ud gana 24 soles
+
+Sea W la v.a que representa la ganancia del juego. Calcule el valor esperado
+
+```{r}
+n=50000
+xs = numeric(n)
+for(i in 1:n){
+  trial = sample(1:6 , 1)
+  xs[i] = if(trial<= 3) -10
+  else if(trial == 4 || trial == 5) 0
+  else 14
+}
+mean(xs)
+```
+```{r}
+plot(1:n , cumsum(xs)/1:n , type='l' , lwd = 2 , col = "red" , las = 1 , ylab = "probabilidad" , xlab = "lanzamientos")
+abline(h=-16/6 , col ="blue" , lwd=1.5)
+```
+
+
+
+
+
+```{r}
+f1 = function(x){
+  aux = ((cos(50*x) + sin(10*x))^2)*dunif(x,0,1)
+  return(aux);
+}
+f1(56.9)
+```
+
+```{r}
+integrate(f1,0,1)
+```
+
+con el metodo de montecarlo
+```{r}
+h1 = function(x){
+  aux = ((cos(50*x) + sin(10*x))^2)*dunif(x,0,1)
+  return(aux);
+}
+```
+
+
+```{r}
+n = 100
+x1 = runif(n,0,1)
+haux = h1(x1)
+hbarn = cumsum(haux)/1:n
+plot(1:n , hbarn , type='l' , lwd=2 , las = 1 , xlab=n , ylab="E[h(x)" , ylim= c(0,2))
+abline(h=0.9655113 , col=2 ,lwd=2)
+
+```
+
+```{r}
+f2 = function(x){
+  aux = (0.5*exp(-abs(x)))*dnorm(x,2,2)
+  return(aux);
+}
+```
+
+```{r}
+integrate(f2,-Inf,Inf)
+```
+
+```{r}
+h2 = function(x){
+  aux = (0.5*exp(-abs(x)))
+  return(aux);
+}
+```
+
+```{r}
+n = 10000
+x2 = rnorm(x,2,2)
+haux = h2(x2)
+hbarn = cumsum(haux)/1:n
+plot(1:n , hbarn , type='l' , lwd=2 , las = 1 , xlab="n" , ylab="E[h(x)]" , ylim= c(0,0.2))
+abline(h=0.1161786 , col=2 ,lwd=2)
+```

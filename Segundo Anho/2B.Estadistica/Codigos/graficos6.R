@@ -1,0 +1,1 @@
+hist(x,col='orange', breaks='Sturges',include.lowest=TRUE,right=FALSE,main='Histograma')

@@ -1,0 +1,11 @@
+Quantum: 10
+El tiempo es 4
+El tiempo es 14
+El tiempo es 24
+El tiempo es 25
+El tiempo es 35
+El tiempo es 45
+El tiempo es 55
+El tiempo es 65
+---------------ESTADISTICAS GENERADAS-----------------
+Total tiempo de ejecucion de todos los procesos: 65ms
