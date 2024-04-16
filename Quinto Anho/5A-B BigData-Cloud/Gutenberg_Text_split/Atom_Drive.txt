@@ -1,0 +1,1329 @@
+The Project Gutenberg EBook of Atom Drive by Charles Louis Fontenay
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever  You may copy it give it away or
+reuse it under the terms of the Project Gutenberg License included
+with this eBook or online at wwwgutenbergorg
+
+
+Title Atom Drive
+
+Author Charles Louis Fontenay
+
+Release Date April   EBook 
+
+Language English
+
+Character set encoding ASCII
+
+ START OF THIS PROJECT GUTENBERG EBOOK ATOM DRIVE 
+
+
+
+
+Produced by Greg Weeks and the Online Distributed
+Proofreading Team at httpwwwpgdpnet
+
+
+
+
+
+
+Transcribers note
+
+This etext was produced from If Worlds of Science Fiction April 
+Extensive research did not uncover any evidence that the US copyright
+on this publication was renewed
+
+
+
+
+Illustration
+
+
+
+
+ATOM DRIVE
+
+BY CHARLES FONTENAY
+
+     It was a race between the tortoise and the hare But this hare was
+     using some dirty tricks to make sure the ending would be
+     different
+
+Illustration Illustrated by Ed Emsh
+
+
+The two spaceship crews were friendly enemies sitting across the table
+from each other for their last meal before blastoff Outside the ports
+the sky was nothing but lightstreaked blackness punctured periodically
+by Earth glare for Space Station  whirled swiftly on its axis
+creating an artificial gravity
+
+Jonner I figured you the last man ever to desert the rockets for a
+hotrod towjob chided Russo Baat captain of the Mars Corporations
+gleaming new freighter Marsward XVIII Baat was fat and redfaced
+and one of the shrewdest space captains in the business
+
+Jonner Jons at the other end of the table inclined his grizzled head
+and smiled
+
+Times change Russo he answered quietly Even the Mars Corporation
+cant stop that
+
+Is it true that youre pulling five thousand tons of cargo Captain
+asked one of the crewmen of the Marsward XVIII
+
+Something like that agreed Jonner and his smile broadened And I
+have only about twice the fuel supply you carry for a ton payload
+
+The communicator above them squawked and blared
+
+Captain Jons and Captain Baat of Martian competition run please report
+to control for final briefing
+
+I knew it grumbled Baat getting heavily and reluctantly to his feet
+I havent gotten to finish a meal on this blasted merrygoround yet
+
+In the space stations control section Commander Ortega of the Space
+Control Commission an ascetic officer in plain blues looked them up
+and down severely
+
+As you know gentlemen he said blastoff time is  Tonnage of
+cargo fuel and empty vessels cannot be a factor under the law The
+Mars Corporation will retain its exclusive franchise to the EarthMars
+run unless the ship sponsored by the AtomStar Company returns to Earth
+with full cargo at least twenty hours ahead of the ship sponsored by the
+Mars Corporation Cargo must be unloaded at Mars and new cargo taken on
+I do not consider the twentyhour bias in favor of the Mars Corporation
+a fair one said Ortega severely turning his gaze to Baat but the
+Space Control Commission does not make the laws It enforces them
+Docking and loading facilities will be available to both of you on an
+equal basis at Phobos and Marsport Good luck
+
+He shook hands with both of them
+
+Saturn Im glad to get out of there exclaimed Baat mopping his brow
+as they left the control section Every time I take a step I feel like
+Im falling on my face
+
+Its because the control sections so close to the center replied
+Jonner The stations spinning to maintain artificial gravity and your
+feet are away from the center As long as youre standing upright the
+pull is straight up and down to you but actually your feet are moving
+faster than your head in a larger orbit When you try to move as in
+normal gravity your body swings out of that line of pull and you nearly
+fall The best corrective Ive found is to lean backward slightly when
+you start to walk
+
+As the two space captains walked back toward the wardroom together Baat
+said
+
+Jonner I hear the Mars Corporation offered you the Marsward XVIII
+for this run first and you turned them down Why You piloted the
+Marsward V and the Wayward Lady for Marscorp when those upstarts in
+the Argentine were trying to crack the EarthMars run This AtomStar
+couldnt have enough money to buy you away from Marscorp
+
+No Marscorp offered me more said Jonner soberly now But this
+atomic drive is the future of space travel Russo Marscorp has it but
+theyre sitting on it because theyve got their fingers in hydrazine
+interests here and the atom drive will make hydrazine useless for space
+fuel Unless I can break the franchise for AtomStar it may be a
+hundred years before we switch to the atom drive in space
+
+What the hell difference does that make to you asked Baat bluntly
+
+Hydrazines expensive replied Jonner Reaction mass isnt and you
+use less of it I was born on Mars Russo Mars is my home and I want
+to see my people get the supplies they need from Earth at a reasonable
+transport cost not pay through the nose for every packet of vegetable
+seed
+
+They reached the wardroom door
+
+Too bad I have to degrav my old chief said Baat chuckling But Im
+a rocket man myself and I say to hell with your hotrod atom drive
+Im sorry you got deflected into this run Jonner youll never break
+Marscorps orbit
+
+                                   
+
+The Marsward XVIII was a huge vessel the biggest the Mars Corporation
+ever had put into space It was a collection of spheres and cylinders
+joined together by a network of steel ties Nearly  of its weight was
+fuel for the oneway trip to Mars
+
+Its competitor the Radiant Hope riding ten miles away in orbit
+around the Earth was the strangest looking vessel ever to get clearance
+from a space station It looked like a tug towing a barge The tug was
+the atomic power plant Two miles behind attached by a thin cable was
+the passenger compartment and cargo
+
+On the control deck of the Radiant Hope Jonner gripped a microphone
+and shouted profane instructions at the pilot of a squat groundtospace
+rocket twenty miles away Tan Li Cho the ships engineer was peering
+out the port at the speck of light toward which Jonner was directing his
+wrath while Qoqol the Martian astrogator worked at his charts on the
+other side of the deck
+
+I thought all cargo was aboard Jonner said Tan
+
+It is said Jonner laying the mike aside That Gboat isnt hauling
+cargo Its going with us Im not taking any chances on Marscorp
+refusing to ferry our cargo back and forth at Mars
+
+Is plotted Jonner boomed Qoqol turning his head to peer at them
+with huge eyes through the spidery tangle of his thin doublejointed
+arms and legs He reached an eightfoot arm across the deck and handed
+Jonner his figures Jonner gave them to Tan
+
+Figure out power for that one Tan ordered Jonner and took his seat
+in the cushioned control chair
+
+Tan pulled a slide rule from his tunic pocket but his black almond
+eyes rested quizzically on Jonner
+
+Its four hours before blastoff he reminded
+
+Ive cleared power for this with Space Control replied Jonner That
+planetloving Gboat jockey missed orbit Well have to swing out a
+little and go to him
+
+On a conventional space craft the order for acceleration would have
+sent the engineer to the engine deck to watch his gauges and report by
+intercom But the Radiant Hopes engine deck was the atomic tug two
+miles ahead which Tan in heavy armor would enter only in
+emergencies He calculated for a moment then called softly to Jonner
+
+Pile One in ten
+
+In ten confirmed Jonner pulling a lever on the calibrated gauge of
+the radio control
+
+Pile Two in fifteen
+
+In fifteen
+
+Check Ill have the length of burst figured for you in a jiffy
+
+A faint glow appeared around the atomic tug far ahead and there was the
+faintest shiver in the ship But after a moment Qoqol said in a puzzled
+tone
+
+No Gs Jonner Engine not work
+
+Sure shes working said Jonner with a grin Youll never get any
+more G than weve got now Qoqol all the way to Mars Our maximum
+acceleration will be thG
+
+One threethousandth exclaimed Tan shaken out of his Oriental calm
+Jonner the Marsward will blast away at one or two Gs How do you
+expect to beat that at th
+
+Because they have to cut off and coast most of the way in an elliptic
+orbit like any other rocket answered Jonner calmly We drive
+straight across the system under power all the time We accelerate half
+way decelerate the other half
+
+But th
+
+Youll be surprised at what constant power can do I know Baat and I
+know the trick hes going to use Its obvious from the blastoff time
+they arranged Hes going to tack off the Moon and use his power right
+to cut  days off that regular day schedule But this tugboat will
+make it in  days
+
+They took aboard the ton landing boat By the time they got it
+secured the radio already was sounding warnings for blastoff
+
+Zero hour arrived Again Jonner pulled levers and again the faint glow
+appeared around the tail of their distant tug Across space the exhaust
+of the Marsward XVIII flared into blinding flame In a moment it
+began to pull ahead visibly and soon was receding like a meteor
+
+Near the Radiant Hope the space station seemed not to have changed
+position at all
+
+The race is not always to the swift remarked Jonner philosophically
+
+And were the tortoise said Tan How about filling us in on this
+jaunt Jonner
+
+Is should Jonner agreed Qoqol Tan know all about crazy new
+engine I know all about crazy new orbit Both not know all You tell
+
+I planned to anyway said Jonner I had figured on having Serj in on
+it but he wouldnt understand much of it anyhow Theres no use in
+waking him up
+
+Serj was the ships doctorpsychologist and fourth member of the crew
+He was asleep below on the centerdeck
+
+For your information Qoqol said Jonner the atomic engine produces
+electrical energy which accelerates reaction mass Actually its a
+crude ion engine Tan can explain the details to you later but the
+important thing is that the fuel is cheap the fueltocargo ratio is
+low and constant acceleration is practical
+
+As for you Tan I was surprised at your not understanding why well
+use low acceleration To boost the engine power and give us more Gs
+wed either have to carry more fuel or coast part of the way on
+momentum like an ordinary rocket This ways more efficient and our
+day margin over the Marsward each way is more than enough for
+unloading and loading more cargo and fuel
+
+With those figures I cant see how Marscorp expects to win this
+competition said Tan
+
+Weve got them flat on the basis of performance agreed Jonner So
+well have to watch for tricks I know Marscorp Thats why I arranged
+to take aboard that Gboat at the last minute Marscorp controls all the
+Gboats at Marsport and theyre smart enough to keep us from using
+them in spite of the Space Control Commission As for refueling for the
+return trip we can knock a chunk off of Phobos for reaction mass
+
+The meteor alarm bells clanged suddenly and the screen lit up once with
+a fastmoving red line that traced the path of the approaching object
+
+Miss us about half a mile said Jonner after a glance at the screen
+Must be pretty big  and its coming up
+
+He and Tan floated to one of the ports and in a few moments saw the
+object speed by
+
+Thats no meteor exclaimed Jonner with a puzzled frown Thats
+manmade But its too small for a Gboat
+
+The radio blared All craft in orbit near Space Station  Warning All
+craft near Space Station  Experimental missile misfired from White
+Sands Repeat experimental missile misfired from White Sands
+Coordinates
+
+Fine time to tell us remarked Tan drily
+
+Experimental missile hell snorted Jonner comprehension dawning
+Qoqol what would have happened if we hadnt shifted orbit to take
+aboard that Gboat
+
+Qoqol calculated a moment
+
+Hit our engines he announced Dead center
+
+Jonners blue eyes clouded ominously Looks like theyre playing for
+keeps this time boys
+
+                                   
+
+The brotherhood of spacemen is an exclusive club Any captain
+astrogator or engineer is likely to be well known to his colleagues
+either personally or by reputation
+
+The ships doctorpsychologist is in a different category Most of them
+sign on for a few runs for the adventure of it as a means of getting
+back and forth between planets without paying the high cost of passage
+or to pick up even more money than they can get from lucrative
+planetbound practice
+
+Jonner did not know Serj the Radiant Hopes doctor Neither Tan nor
+Qoqol ever had heard of him But Serj appeared to know his business well
+enough and was friendly enough
+
+It was Serjs first trip and he was very interested in the way the ship
+operated He nosed into every corner of it and asked a hundred questions
+a day
+
+Youre as inquisitive as a cadet spaceman Serj Jonner told him on
+the twentyfifth day out Everybody knew everyone else well by then
+which meant that Jonner and Qoqol who had served together before had
+become acquainted with Tan and Serj
+
+Theres a lot to see and learn about space Captain said Serj He was
+a young fellow with fair hair and an easy grin Think I could go
+outside
+
+If you keep a lifeline hooked on The suits have magnetic shoes to hold
+you to the hull of the ship but you can lose your footing
+
+Thanks said Serj He touched his hand to his forehead and left the
+control deck
+
+Jonner near the end of his eighthour duty shift watched the dials
+
+The red light showing the inner airlock door was open blinked on It
+blinked off then the outer airlock indicator went on and off
+
+A shadow fell across Jonner briefly He glanced at the port and reached
+for the microphone
+
+Careful and dont step on any of the ports he warned Serj The
+magnetic soles wont hold on them
+
+Ill be careful sir answered Serj
+
+No one but a veteran spaceman would have noticed the faint quiver that
+ran through the ship but Jonner felt it Automatically he swung his
+control chair and his eyes swept the bank of dials
+
+At first he saw nothing The outer lock light blinked on and off then
+the inner lock indicator That was Serj coming back inside
+
+Then Jonner noted that the hand on one dial rested on zero Above the
+dial was the word ACCELERATION
+
+His eyes snapped to the radio controls The atomic pile levers were
+still at their proper calibration The dials above them said the engines
+were working properly
+
+The atomic tug was still accelerating but passengers and cargo were in
+free fall
+
+Swearing Jonner jerked at the levers to pull out the piles aboard the
+tug
+
+A blue flash flared across the control board momentarily blinding him
+Jonner recoiled only his webbed safety belt preventing him from
+plummeting from the control chair
+
+He swung back anxiously to the dials brushing futilely at the spots
+that swam before his eyes He breathed a sigh of relief The radio
+controls had operated The atomic engines had ceased firing
+
+Tentatively cautiously he reversed the lever There was no blue flash
+this time but neither did the dials quiver He swore Something had
+burned out in the radio controls He couldnt reverse the tug
+
+He punched the general alarm button viciously and the raucous clangor
+of the bell sounded through the confines of the ship One by one the
+other crew members popped up to the control deck from below
+
+He turned the controls over to Qoqol
+
+Take readings on that damn tug Jonner ordered I think our cable
+broke Tan lets go take a look
+
+When they got outside they found about a foot of the oneinch cable
+still attached to the ship The rest of it drawn away by the tug before
+Jonner could cut acceleration was out of sight
+
+Can it be welded Tan
+
+It can but itll take a while replied the engineer slowly First
+well have to reverse that tug and get the other end of that break
+
+Damn and the radio controls burned out I tried to reverse it before
+I sounded the alarm Tan how fast can you get those controls
+repaired
+
+Great space exclaimed Tan softly Without seeing it Id say at
+least two days Jonner Those controls are complicated as hell
+
+They reentered the ship Qoqol was working at his diagrams and Serj
+was looking over his shoulder Jonner took a heatgun quietly from the
+rack and pointed it at Serj
+
+Youll get below mister he commanded grimly Youll be handcuffed
+to your bunk from here on out
+
+Sir I dont understand stammered Serj
+
+Like hell you dont You cut that cable Jonner accused
+
+Serj started to shrug but he dropped his eyes
+
+They paid me he said in a low tone They paid me a thousand solars
+
+What good would a thousand solars do you when youre dead Serj 
+dead of suffocation and drifting forever in space
+
+Serj looked up in astonishment
+
+Why you can still reach Earth by radio easy he said It wouldnt
+take long for a rescue ship to reach us
+
+Chemical rockets have their limitations said Jonner coldly
+
+And you dont realize what speed weve built up with steady
+acceleration Wed head straight out of the system and nothing could
+intercept us if that tug had gotten too far before we noticed it was
+gone
+
+He jabbed the whitefaced doctor with the muzzle of the heatgun
+
+Get below he ordered Ill turn you over to Space Control at Mars
+
+When Serj had left the control deck Jonner turned to the others His
+face was grave
+
+That tug picked up speed before I could shut off the engines after the
+cable was cut he said Its moving away from us slowly and at a
+tangent And solar gravitys acting on both bodies now By the time we
+get those controls repaired the drift may be such that well waste
+weeks maneuvering the tug back
+
+I could jet out to the tug in a spacesuit before it gets too far
+away said Tan thoughtfully But that wouldnt do any good Theres
+no way of controlling the engines at the tug It has to be done by
+radio
+
+If we get out of this remind me to recommend that atomic ships always
+carry a spare cable said Jonner gloomily If we had one we could
+splice them and hold the ship to the tug until the controls are
+repaired
+
+Is cable in cargo strong enough Jonner asked Qoqol
+
+Thats right exclaimed Jonner brightening Most of our cargos
+cable That ton spool were hauling back there is  miles of
+cable to lay a television network between the Martian cities
+
+Television cable repeated Tan doubtfully Will that be strong
+enough
+
+Its bound in flonite that new fluorine compound Its strong enough
+to tow this whole cargo at a couple of Gs Theres nothing aboard this
+ship that would cut off a length of ita heatgun at full power
+wouldnt even scorch itbut we can unwind enough of it and block the
+spool Itll hold the ship to the tug until the controls can be
+repaired then we can reverse the tug and weld the cable
+
+You mean the whole  miles of its in one piece demanded Tan in
+astonishment
+
+Thats not so much The cablelaying steamer Dominia carried 
+miles in one piece to lay Atlantic cables in the early th century
+
+But howll we ever get  tons in one piece down to Mars asked
+Tan No Gboat can carry that load
+
+Jonner chuckled
+
+Same way they got it up from Earth to the ship he answered They
+attached one end of it to a Gboat and sent it up to orbit then wound
+it up on a fast winch Since the Gboat will be decelerating to Mars
+the unwinding will have to be slowed or the cable would tangle itself
+all over Syrtis
+
+Sounds like its made to order said Tan grinning Ill get into my
+spacesuit
+
+Youll get to work on the radio controls contradicted Jonner getting
+up Thats something I cant do and I can get into a spacesuit and
+haul a length of cable out to the tug Qoqol can handle the winch
+
+                                   
+
+Deveet the AtomStar Companys representative at Mars City and Kruger
+of the Space Control Commission were waiting when the Radiant Hopes
+Gboat dropped down from the Phobos station and came to rest in a wash
+of jets They rode out to the Gboat together in a Commission groundcar
+Jonner emerged from the Gboat following the handcuffed Serj
+
+Hes all yours Jonner told Kruger gesturing at Serj You have my
+radio reports on the cablecutting and Ill make my log available to
+you
+
+Kruger put his prisoner in the front seat of the groundcar beside him
+and Jonner climbed in the back seat with Deveet
+
+I brought the crates of dies for the groundcar factory down this time
+Jonner told Deveet Well bring down all the loose cargo before
+shooting the television cable down While theyre unloading the Gboat
+I wish youd get the tanks refilled with hydrazine and nitric acid
+Ive got enough to get back up but not enough for a round trip
+
+What do you plan to do asked Deveet He was a darkskinned
+longfaced man with a sardonic twist to his mouth
+
+Ive got to sign on a new ships doctor to replace Serj When the
+Marsward comes in Marscorp will have a dozen Gboats working round
+the clock to unload and reload her With only one Gboat weve got to
+make every hour count We still have reaction mass to pick up on
+Phobos
+
+Right agreed Deveet You can take the return cargo up in one load
+though Its just twenty tons of Martian relics for the Solar Museum
+MarstoEarth cargos run light
+
+At the administration building Jonner took his leave of Deveet and went
+up to the Space Control Commissions personnel office on the second
+floor He was in luck On the board as applying for a MarsEarth run as
+ships doctorpsychologist was one name Lana Elden
+
+He looked up the name in the Mars City directory and dialed into the
+city from a nearby telephone booth A womans voice answered
+
+Is Lana Elden there asked Jonner
+
+Im Lana Elden she said
+
+Jonner swore under his breath A woman But if she werent qualified
+her name would not have been on the Commission board
+
+The verbal contract was made quickly and Jonner cut the Commission
+monitor into the line to make it binding That was done often when rival
+ships even of the same line were bidding for the services of crewmen
+
+Blastoff time is  tonight he said ending the interview Be
+here
+
+Jonner left the personnel office and walked down the hall At the
+elevator Deveet and Kruger hurried out almost colliding with him
+
+Jonner weve run into trouble exclaimed Deveet Space Fuels wont
+sell us any hydrazine and nitric acid to refill the tanks They say they
+have a new contract with Marscorp that takes all their supply
+
+Contract hell snorted Jonner Marscorp owns Space Fuels What can
+be done about it Kruger
+
+Kruger shook his head
+
+Im all for you but Space Control has no jurisdiction he said If a
+private firm wants to restrict its sales to a franchised line theres
+nothing we can do about it If you had a franchise we could force them
+to allot fuel on the basis of cargo handled since Space Fuels has a
+monopoly here But you dont have a franchise yet
+
+Jonner scratched his grey head thoughtfully
+
+It was a serious situation The atompowered Radiant Hope could no
+more make a planetary landing than the chemicallypowered ships Its
+power gave a low sustained thrust that permitted it to accelerate
+constantly over long periods of time To beat the powerful pull of
+planetary surface gravity the terrific burst of quick energy from the
+streamlined Gboats the planetary landing craft was needed
+
+We can still handle it Jonner said at last With only twenty tons
+return cargo we can take it up this trip Add some large parachutes to
+that Deveet Well shoot the end of the cable down by signal rocket
+out in the lowlands and stop the winch when weve made contact long
+enough to attach the rest of the cargo to the cable Pull it down with
+the cable and with Mars low gravity the parachutes will keep it from
+being damaged
+
+But when Jonner got back to the landing field to check on unloading
+operations his plan was smashed As he approached the Gboat a
+mechanic wearing an illconcealed smirk came up to him
+
+Captain looks like you sprung a leak in your fuel line he said All
+your hydrazines leaked out in the sand
+
+Jonner swung from the waist and knocked the man flat Then he turned on
+his heel and went back to the administration building to pay the
+credit fine he would be assessed for assaulting a spaceport employee
+
+                                   
+
+The Space Control Commissions hearing room in Mars City was almost
+empty The examiner sat on the bench resting his chin on his hand as he
+listened to testimony In the plaintiffs section sat Jonner flanked by
+Deveet and Lana Elden In the defense box were the Mars Corporation
+attorney and Captain Russo Baat of the Marsward XVIII Kruger seated
+near the rear of the room was the only spectator
+
+The Mars Corporation attorney had succeeded in delaying the final
+hearing more than a day Martian month by legal maneuvers Meanwhile
+the Marsward XVIII had blasted down to Phobos and Gboats had been
+shuttling back and forth unloading the vessel and reloading it for the
+return trip to Earth
+
+When testimony had been completed the examiner shuffled through his
+papers He put on his spectacles and peered over them at the litigants
+
+It is the ruling of this court he said formally that the plaintiffs
+have not presented sufficient evidence to prove tampering with the fuel
+line of the Gboat of the spaceship Radiant Hope There is no evidence
+that it was cut or burned but only that it was broken The court must
+remind the plaintiffs that this could have been done accidentally
+through inept handling of cargo
+
+Since the plaintiffs have not been able to prove their contention this
+court of complaint has no alternative than to dismiss the case
+
+The examiner arose and left the hearing room Baat waddled across the
+aisle puffing
+
+Too bad Jonner he said I dont like the stuff Marscorps pulling
+and I think you know I dont have anything to do with it
+
+I want to win but I want to win fair and square If theres anything I
+can do to help
+
+Havent got a spare Gboat in your pocket have you retorted Jonner
+with a rueful smile
+
+Baat pulled at his jowls
+
+The Marsward isnt carrying Gboats he said regretfully They all
+belong to the port and Marscorps got them so tied up youll never get
+a sniff of one But if you want to get back to your ship Jonner I can
+take you up to Phobos with me as my guest
+
+Jonner shook his head
+
+I figure on taking the Radiant Hope back to Earth he said But Im
+not blasting off without cargo until its too late for me to beat you on
+the run
+
+You sure Thisll be my last ferry trip The Marsward blasts off for
+Earth at  tomorrow
+
+No thanks Russo But I will appreciate your taking my ships doctor
+Dr Elden up to Phobos
+
+Done agreed Baat Lets go Dr Elden The Gboat leaves Marsport in
+two hours
+
+Jonner watched Baat puff away with the slender whiteclad brunette at
+his side Baat personally would see Lana Elden safely aboard the
+Radiant Hope even if it delayed his own blastoff
+
+Morosely he left the hearing room with Deveet
+
+What I cant understand said the latter is why all this dirty work
+why didnt Marscorp just use one of their atomdrive ships for the
+competition run
+
+Because whatever ship is used on a competition run has to be kept in
+service on the franchised run answered Jonner Marscorp has millions
+tied up in hydrazine interests and theyre more interested in keeping
+an atomic ship off this run than they are in a monopoly franchise But
+they tie in together if Marscorp loses the monopoly franchise and
+AtomStar puts in atomdrive ships Marscorp will have to switch to
+atomdrive to meet the competition
+
+If we had a franchise we could force Space Fuels to sell us
+hydrazine said Deveet unhappily
+
+Well we dont And at this rate well never get one
+
+                                   
+
+Jonner and Deveet were fishing at the Mars City Recreation Center It
+had been several weeks since the Marsward XVIII blasted off to Earth
+with a full cargo And still the atomic ship Radiant Hope rested on
+Phobos with most of her Marsbound cargo still aboard and still her crew
+languished at the Phobos space station and still Jonner moved back and
+forth between Mars City and Marsport daily racking his brain for a
+solution that would not come
+
+How in space do you get twenty tons of cargo up to an orbit  miles
+out without any rocket fuel he demanded of Deveet more than once He
+received no satisfactory answer
+
+The Recreation Center was a twoacre park that lay beneath the plastic
+dome of Mars City Above them they could see swiftmoving Phobos and
+distant Deimos among the other stars that powdered the night In the
+park around them colonists rode the amusement machines canoed along
+the canal that twisted through the park or sipped refreshment at
+scattered tables A dozen or more sat like Jonner and Deveet around
+the edge of the tiny lake fishing
+
+Deveets line tightened He pulled in a streamlined flapping object
+from which the light glistened wetly
+
+Good catch complimented Jonner Thats worth a full credit
+
+Deveet unhooked his catch and laid it on the bank beside him It was a
+metal fish live fish were unknown on Mars They paid for the privilege
+of fishing for a certain time and any fish caught were sold back to
+the management at a fixed price depending on size to be put back into
+the lake
+
+Youre pretty good at it said Jonner Thats your third tonight
+
+Its all in the speed at which you reel in your line explained
+Deveet The fish move at preset speeds Theyre made to turn and catch
+a hook that moves across their path at a slightly slower speed than
+theyre swimming The management changes the speeds once a week to keep
+the fishermen from getting too expert
+
+You cant beat the management chuckled Jonner But if its a matter
+of matching orbital speeds to make contact I ought to do pretty well
+when I get the hang of it
+
+He cocked an eye up toward the transparent dome Phobos had moved across
+the sky into Capricorn since he last saw her His memory automatically
+ticked off the satellites orbital speed  miles a second speed in
+relation to planetary motion
+
+Why go over that again One had to have fuel first Meanwhile the
+Radiant Hope lay idle on Phobos and its crew whiled away the hours at
+the space station inside the moon their feet spinning faster than their
+heads  no that wasnt true on Phobos because it didnt have a spin
+to impart artificial gravity like the space stations around Earth
+
+He sat up suddenly Deveet looked at him in surprise Jonners lips
+moved silently for a moment then he got to his feet
+
+Where can we use a radiophone he asked
+
+One in my office said Deveet standing up
+
+Lets go Quick before Phobos sets
+
+They turned in their rods Deveet collecting the credits for his fish
+and left the Recreation Center
+
+When they reached the AtomStar Companys Martian office Jonner plugged
+in the radiophone and called the Phobos space station He got Tan
+
+All of you get aboard Jonner ordered Then have Qoqol call me
+
+He signed off and turned to Deveet Can we charter a plane to haul our
+Earthbound cargo out of Marsport
+
+A plane I suppose so Where do you want to haul it
+
+Charax is as good as any other place But I need a fast plane
+
+I think we can get it Marscorp still controls all the airlines but
+the Mars government keeps a pretty strict finger on their planetbound
+operations They cant refuse a cargo haul without good reason
+
+Just to play safe have some friend of yours whom they dont know
+charter the plane in his name They wont know its us till we start
+loading cargo
+
+Right said Deveet picking up the telephone I know just the man
+
+                                   
+
+Towmotors scuttled across the landing area at Marsport shifting the
+cargo that had been destined for the Radiant Hope from the helpless
+Gboat to a jet cargoplane Nearby watching the operation were Jonner
+and Deveet with the Marsport agent of Mars Air Transport Company
+
+We didnt know AtomStar was the one chartering the plane until you
+ordered the Gboat cargo loaded on it confessed the MarsAir agent
+
+I see you and Mr Deveet are signed up to accompany the cargo Youll
+have to rent suits for the trip We have to play it safe and theres
+always the possibility of a forced landing
+
+There are a couple of spacesuits aboard the Gboat that we want to take
+along said Jonner casually Well just wear those instead
+
+Okay The agent spread his hands and shrugged Everybody at Marsport
+knows about you bucking Marscorp Captain What you expect to gain by
+transferring your cargo to Charax is beyond me but its your business
+
+An hour later the chartered airplane took off with a thunder of jets
+Aboard was the ton cargo the Radiant Hope was supposed to carry to
+Earth plus some large parachutes The MarsAir pilot wore a light suit
+with plastic helmet designed for survival in the thin cold Martian air
+Jonner and Deveet wore the bulkier spacesuits
+
+Five minutes out of Marsport Jonner thrust the muzzle of a heatgun in
+the pilots back
+
+Set it on automatic strap on your parachute and bail out he ordered
+Were taking over
+
+The pilot had no choice He went through the planes airlock and jumped
+helped by a hearty boost from Jonner His parachute blossomed out as he
+drifted down toward the green Syrtis Major Lowland Jonner didnt worry
+about him He knew the pilots helmet radio would reach Marsport and a
+helicopter would rescue him shortly
+
+I dont know what youre trying to do Jonner said Deveet
+apprehensively over his spacehelmet radio But whatever it is youd
+better do it fast Theyll have every plane on Mars looking for us in
+half an hour
+
+Let em look and keep quiet a while retorted Jonner Ive got some
+figuring to do
+
+He put the plane on automatic took off the spacesuit handhooks and
+scribbled figures on a scrap of paper He tuned in the planes radio and
+called Qoqol on Phobos They talked to each other briefly in Martian
+
+The darker green line of a canal crossed the green lowland below them
+
+Good theres Drosinas muttered Jonner Lets see time  hours
+speed  miles an hour
+
+Jonner boosted the jets a bit and watched the terrain
+
+By Saturn I almost overran it he exclaimed Deveet smash out those
+ports
+
+Break out the ports repeated Deveet Thatll depressurize the
+cabin
+
+Thats right So youd better be sure your spacesuits secure
+
+Obviously puzzled Deveet strode up and down the cabin knocking out its
+six windows with the handhooks of his spacesuit Jonner maneuvered the
+plane gently and set it on automatic He got out of the pilots seat
+and strode to the right front port
+
+Reaching through the broken window he pulled in a section of cable that
+was trailing alongside While the baffled Deveet watched he reeled it
+in until he brought up the end of it to which was attached a
+fishshaped finned metal missile
+
+Jonner carried the cable end and the attached missile across the cabin
+and tossed it out the broken front port on the other side swinging it
+so that the mileanhour slipstream snapped it back in through the
+rearmost port like a bullet
+
+Pick it up and pass it out the right rear port he commanded Well
+have to pass it to each other from port to port The slipstream wont
+let us swing it forward and through
+
+In a few moments the two of them had worked the missile and the cable
+end to the right front port and in through it Originating above the
+plane it now made a loop through the four open ports Jonner untied the
+missile and tied the end to the portion which came into the cabin
+making a bowline knot of the loop Deveet picked up the missile from the
+floor where Jonner had thrown it
+
+Looks like a spent rocket shell he commented
+
+Its a signal rocket said Jonner The flare trigger was
+disconnected
+
+He picked up the microphone and called the Radiant Hope on Phobos
+
+Weve hooked our fish Qoqol he told the Martian and laid the mike
+aside
+
+What does that mean asked Deveet
+
+Means wed better strap in said Jonner suiting the action to the
+words Youre in for a short trip to Phobos Deveet
+
+Jonner pulled back slowly on the elevator control and the plane began a
+shallow climb At  miles an hour it began to attain a height at
+which its broad wingsbroader than those of any terrestrial
+planewould not support it
+
+Im trying to decide said Deveet with forced calm whether youve
+flipped your helmet
+
+Nope answered Jonner Trolling for those fish in Mars City gave me
+the idea The rest was no more than an astrogation problem like any
+rendezvous with a ship in a fixed orbit which Qoqol could figure
+Remember that mile television cable the ships hauling Qoqol just
+shot the end of it down to Mars surface by signal rocket we hooked on
+and now hell haul us up to Phobos Hes got the ships engine hooked
+onto the cable winch
+
+The jets coughed and stopped The plane was out of fuel It was on
+momentumto be drawn by the cable or to snap it and fall
+
+Impossible cried Deveet in alarm Phobos orbital speed is more than
+a mile a second No cable can take the sudden difference in that and the
+speed were traveling When the slack is gone itll break
+
+The slacks gone already Youre thinking of the speed of Phobos at
+Phobos At this end of the cable were like the head of a man in the
+control section of a space station which is traveling slower than his
+feet because its orbit is smallerbut it revolves around the center in
+the same time
+
+Look Jonner added Ill put it in round numbers Figure your cable
+as part of a radius of Phobos orbit Phobos travels at  but the
+other end of the radius travels at zero because its at the center The
+cable end at the Martian surface travels at a speed in
+betweenroughly  miles an hourbut it keeps up with Phobos
+revolution Since the surface of Mars itself rotates at  miles an
+hour all I had to do was boost the plane up to  to match the speed
+of the cable end
+
+That cable will haul a hell of a lot more than twenty tons and thats
+all thats on it right now By winching us up slowly therell never be
+too great a strain on it
+
+Deveet looked apprehensively out of the port The plane was hanging
+sidewise now and the distant Martian surface was straight out the
+lefthand ports The cable was holding
+
+We can make the trip to Earth  days faster than the Marsward said
+Jonner and they have only about  days start It wont take us but a
+few days to make Phobos and get this cable and the rest of the cargo
+shot back to Mars AtomStar will get its franchise and youll see all
+spaceships switching to the atomic drive within the next decade
+
+How about this plane asked Deveet We stole it you know
+
+You can hire a Gboat to take it back to Marsport said Jonner with a
+chuckle Pay MarsAir for the time and the broken ports and settle out
+of court with that pilot we dropped I dont think theyll send you to
+jail Deveet
+
+He was silent for a few minutes
+
+By the way Deveet said Jonner then radio AtomStar to buy some
+flonite cable of their own and ship it to Phobos Damned if I dont
+think this is cheaper than Gboats
+
+
+
+
+
+End of the Project Gutenberg EBook of Atom Drive by Charles Louis Fontenay
+
+ END OF THIS PROJECT GUTENBERG EBOOK ATOM DRIVE 
+
+ This file should be named txt or zip 
+This and all associated files of various formats will be found in
+        httpwwwgutenbergorg
+
+Produced by Greg Weeks and the Online Distributed
+Proofreading Team at httpwwwpgdpnet
+
+
+Updated editions will replace the previous onethe old editions
+will be renamed
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works so the Foundation
+and you can copy and distribute it in the United States without
+permission and without paying copyright royalties  Special rules
+set forth in the General Terms of Use part of this license apply to
+copying and distributing Project Gutenbergtm electronic works to
+protect the PROJECT GUTENBERGtm concept and trademark  Project
+Gutenberg is a registered trademark and may not be used if you
+charge for the eBooks unless you receive specific permission  If you
+do not charge anything for copies of this eBook complying with the
+rules is very easy  You may use this eBook for nearly any purpose
+such as creation of derivative works reports performances and
+research  They may be modified and printed and given awayyou may do
+practically ANYTHING with public domain eBooks  Redistribution is
+subject to the trademark license especially commercial
+redistribution
+
+
+
+ START FULL LICENSE 
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenbergtm mission of promoting the free
+distribution of electronic works by using or distributing this work
+or any other work associated in any way with the phrase Project
+Gutenberg you agree to comply with all the terms of the Full Project
+Gutenbergtm License available with this file or online at
+httpgutenbergorglicense
+
+
+Section   General Terms of Use and Redistributing Project Gutenbergtm
+electronic works
+
+A  By reading or using any part of this Project Gutenbergtm
+electronic work you indicate that you have read understand agree to
+and accept all the terms of this license and intellectual property
+trademarkcopyright agreement  If you do not agree to abide by all
+the terms of this agreement you must cease using and return or destroy
+all copies of Project Gutenbergtm electronic works in your possession
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenbergtm electronic work and you do not agree to be bound by the
+terms of this agreement you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph E
+
+B  Project Gutenberg is a registered trademark  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement  There are a few
+things that you can do with most Project Gutenbergtm electronic works
+even without complying with the full terms of this agreement  See
+paragraph C below  There are a lot of things you can do with Project
+Gutenbergtm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenbergtm electronic
+works  See paragraph E below
+
+C  The Project Gutenberg Literary Archive Foundation the Foundation
+or PGLAF owns a compilation copyright in the collection of Project
+Gutenbergtm electronic works  Nearly all the individual works in the
+collection are in the public domain in the United States  If an
+individual work is in the public domain in the United States and you are
+located in the United States we do not claim a right to prevent you from
+copying distributing performing displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed  Of course we hope that you will support the Project
+Gutenbergtm mission of promoting free access to electronic works by
+freely sharing Project Gutenbergtm works in compliance with the terms of
+this agreement for keeping the Project Gutenbergtm name associated with
+the work  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenbergtm License when you share it without charge with others
+
+D  The copyright laws of the place where you are located also govern
+what you can do with this work  Copyright laws in most countries are in
+a constant state of change  If you are outside the United States check
+the laws of your country in addition to the terms of this agreement
+before downloading copying displaying performing distributing or
+creating derivative works based on this work or any other Project
+Gutenbergtm work  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States
+
+E  Unless you have removed all references to Project Gutenberg
+
+E  The following sentence with active links to or other immediate
+access to the full Project Gutenbergtm License must appear prominently
+whenever any copy of a Project Gutenbergtm work any work on which the
+phrase Project Gutenberg appears or with which the phrase Project
+Gutenberg is associated is accessed displayed performed viewed
+copied or distributed
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever  You may copy it give it away or
+reuse it under the terms of the Project Gutenberg License included
+with this eBook or online at wwwgutenbergorg
+
+E  If an individual Project Gutenbergtm electronic work is derived
+from the public domain does not contain a notice indicating that it is
+posted with permission of the copyright holder the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges  If you are redistributing or providing access to a work
+with the phrase Project Gutenberg associated with or appearing on the
+work you must comply either with the requirements of paragraphs E
+through E or obtain permission for the use of the work and the
+Project Gutenbergtm trademark as set forth in paragraphs E or
+E
+
+E  If an individual Project Gutenbergtm electronic work is posted
+with the permission of the copyright holder your use and distribution
+must comply with both paragraphs E through E and any additional
+terms imposed by the copyright holder  Additional terms will be linked
+to the Project Gutenbergtm License for all works posted with the
+permission of the copyright holder found at the beginning of this work
+
+E  Do not unlink or detach or remove the full Project Gutenbergtm
+License terms from this work or any files containing a part of this
+work or any other work associated with Project Gutenbergtm
+
+E  Do not copy display perform distribute or redistribute this
+electronic work or any part of this electronic work without
+prominently displaying the sentence set forth in paragraph E with
+active links or immediate access to the full terms of the Project
+Gutenbergtm License
+
+E  You may convert to and distribute this work in any binary
+compressed marked up nonproprietary or proprietary form including any
+word processing or hypertext form  However if you provide access to or
+distribute copies of a Project Gutenbergtm work in a format other than
+Plain Vanilla ASCII or other format used in the official version
+posted on the official Project Gutenbergtm web site wwwgutenbergorg
+you must at no additional cost fee or expense to the user provide a
+copy a means of exporting a copy or a means of obtaining a copy upon
+request of the work in its original Plain Vanilla ASCII or other
+form  Any alternate format must include the full Project Gutenbergtm
+License as specified in paragraph E
+
+E  Do not charge a fee for access to viewing displaying
+performing copying or distributing any Project Gutenbergtm works
+unless you comply with paragraph E or E
+
+E  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenbergtm electronic works provided
+that
+
+ You pay a royalty fee of  of the gross profits you derive from
+     the use of Project Gutenbergtm works calculated using the method
+     you already use to calculate your applicable taxes  The fee is
+     owed to the owner of the Project Gutenbergtm trademark but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation  Royalty payments
+     must be paid within  days following each date on which you
+     prepare or are legally required to prepare your periodic tax
+     returns  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section  Information about donations to
+     the Project Gutenberg Literary Archive Foundation
+
+ You provide a full refund of any money paid by a user who notifies
+     you in writing or by email within  days of receipt that she
+     does not agree to the terms of the full Project Gutenbergtm
+     License  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenbergtm works
+
+ You provide in accordance with paragraph F a full refund of any
+     money paid for a work or a replacement copy if a defect in the
+     electronic work is discovered and reported to you within  days
+     of receipt of the work
+
+ You comply with all other terms of this agreement for free
+     distribution of Project Gutenbergtm works
+
+E  If you wish to charge a fee or distribute a Project Gutenbergtm
+electronic work or group of works on different terms than are set
+forth in this agreement you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart the owner of the Project Gutenbergtm trademark  Contact the
+Foundation as set forth in Section  below
+
+F
+
+F  Project Gutenberg volunteers and employees expend considerable
+effort to identify do copyright research on transcribe and proofread
+public domain works in creating the Project Gutenbergtm
+collection  Despite these efforts Project Gutenbergtm electronic
+works and the medium on which they may be stored may contain
+Defects such as but not limited to incomplete inaccurate or
+corrupt data transcription errors a copyright or other intellectual
+property infringement a defective or damaged disk or other medium a
+computer virus or computer codes that damage or cannot be read by
+your equipment
+
+F  LIMITED WARRANTY DISCLAIMER OF DAMAGES  Except for the Right
+of Replacement or Refund described in paragraph F the Project
+Gutenberg Literary Archive Foundation the owner of the Project
+Gutenbergtm trademark and any other party distributing a Project
+Gutenbergtm electronic work under this agreement disclaim all
+liability to you for damages costs and expenses including legal
+fees  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE STRICT
+LIABILITY BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F  YOU AGREE THAT THE FOUNDATION THE
+TRADEMARK OWNER AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL DIRECT INDIRECT CONSEQUENTIAL PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE
+
+F  LIMITED RIGHT OF REPLACEMENT OR REFUND  If you discover a
+defect in this electronic work within  days of receiving it you can
+receive a refund of the money if any you paid for it by sending a
+written explanation to the person you received the work from  If you
+received the work on a physical medium you must return the medium with
+your written explanation  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund  If you received the work electronically the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund  If the second copy
+is also defective you may demand a refund in writing without further
+opportunities to fix the problem
+
+F  Except for the limited right of replacement or refund set forth
+in paragraph F this work is provided to you ASIS WITH NO OTHER
+WARRANTIES OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE
+
+F  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions
+
+F  INDEMNITY  You agree to indemnify and hold the Foundation the
+trademark owner any agent or employee of the Foundation anyone
+providing copies of Project Gutenbergtm electronic works in accordance
+with this agreement and any volunteers associated with the production
+promotion and distribution of Project Gutenbergtm electronic works
+harmless from all liability costs and expenses including legal fees
+that arise directly or indirectly from any of the following which you do
+or cause to occur a distribution of this or any Project Gutenbergtm
+work b alteration modification or additions or deletions to any
+Project Gutenbergtm work and c any Defect you cause
+
+
+Section    Information about the Mission of Project Gutenbergtm
+
+Project Gutenbergtm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete old middleaged and new computers  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenbergtms
+goals and ensuring that the Project Gutenbergtm collection will
+remain freely available for generations to come  In  the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenbergtm and future generations
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help see Sections  and 
+and the Foundation web page at httpwwwpglaforg
+
+
+Section   Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+c educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service  The Foundations EIN or federal tax identification
+number is   Its c letter is posted at
+httppglaforgfundraising  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by US federal laws and your states laws
+
+The Foundations principal office is located at  Melan Dr S
+Fairbanks AK  but its volunteers and employees are scattered
+throughout numerous locations  Its business office is located at
+ North  West Salt Lake City UT    email
+businesspglaforg  Email contact links and up to date contact
+information can be found at the Foundations web site and official
+page at httppglaforg
+
+For additional contact information
+     Dr Gregory B Newby
+     Chief Executive and Director
+     gbnewbypglaforg
+
+
+Section   Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenbergtm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment  Many small donations
+ to  are particularly important to maintaining tax exempt
+status with the IRS
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all  states of the United
+States  Compliance requirements are not uniform and it takes a
+considerable effort much paperwork and many fees to meet and keep up
+with these requirements  We do not solicit donations in locations
+where we have not received written confirmation of compliance  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit httppglaforg
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate
+
+International donations are gratefully accepted but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States  US laws alone swamp our small staff
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses  Donations are accepted in a number of other
+ways including checks online payments and credit card donations
+To donate please visit httppglaforgdonate
+
+
+Section   General Information About Project Gutenbergtm electronic
+works
+
+Professor Michael S Hart is the originator of the Project Gutenbergtm
+concept of a library of electronic works that could be freely shared
+with anyone  For thirty years he produced and distributed Project
+Gutenbergtm eBooks with only a loose network of volunteer support
+
+
+Project Gutenbergtm eBooks are often created from several printed
+editions all of which are confirmed as Public Domain in the US
+unless a copyright notice is included  Thus we do not necessarily
+keep eBooks in compliance with any particular paper edition
+
+
+Most people start at our Web site which has the main PG search facility
+
+     httpwwwgutenbergorg
+
+This Web site includes information about Project Gutenbergtm
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation how to help produce our new eBooks and how to
+subscribe to our email newsletter to hear about new eBooks

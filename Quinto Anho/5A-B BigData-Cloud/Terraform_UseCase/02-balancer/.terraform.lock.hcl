@@ -1,0 +1,41 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/hashicorp/google" {
+  version     = "4.29.0"
+  constraints = "4.29.0"
+  hashes = [
+    "h1:LT4RkqnJ/jqERMDr+d0a8h9TByQ1eSq5dc419+PSfdU=",
+    "zh:00ac3a2c7006d349147809961839be1ceda83d5c620aa30541064e2507b72f35",
+    "zh:1602bdc71667abfbcc34c15944decabc5e05e167e49ce4045dc13ba234a27995",
+    "zh:173c2fb837c9c1a9b103ca9f9ade456effc705a5539ddab2a7de0b1e3d59af73",
+    "zh:231c28cc9698c9ce87218f9a8073dd30aa51b97511bf57e533b7780581cb2e4f",
+    "zh:2423c1f8065b309fc7340b880fa898f877e715c734b5322c12d004335c7591d4",
+    "zh:2c0d650520e32d8d884a4fb83cf3527605a8cadab557a0857290a3b14b85f6e5",
+    "zh:8ef536b0cb362a377e058c4105d4748cd7c4b083376abc829ce8d66396c589c7",
+    "zh:9da3e2987cd737b843f0a8558b400af1f0fe60929cd23788800a1114818d982d",
+    "zh:ad727c5eba4cce83a44f3747637876462686465e64ac40099a084935a538bb57",
+    "zh:b3895af9e06d0142ef5c6bbdd8dd0b2acb4dffa9c6631b9b6b984719c157cc1b",
+    "zh:d7be31e59a254f952f4e03bedbf4dfbd6717f5e9e5d31e1add52711f6da4aedb",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/google-beta" {
+  version = "5.9.0"
+  hashes = [
+    "h1:bn7Wyh8VQ7h19JZSXn7P+LT6bf7DPEsG5Whk5YAGWkg=",
+    "zh:2fcb82487f8c5335646375bd98a44f22df5b01a3290317e138f638cc156da8a8",
+    "zh:452959d6aa53837b613dfa8d9e9f301cc7dba6c0176e03ac0d50408f1b1c6eb5",
+    "zh:49d1f65ba5a8fa5462a95c238aec17b8638b09bee28bb848b9f38d2911f7e8b7",
+    "zh:528821fcbf788721f71f1e78e38b24cf47da1785521637d211f95d01f53519d2",
+    "zh:54f9d5e2df07a463f23d40d04014eedad49b274280d220a81dc8f0bde5591226",
+    "zh:5767e527b13f66a7098fc3059786ade0eaa39fb6d6d3199a4976ccf2b3cdf280",
+    "zh:582d800aa8c5ff345ce9b5494f83d5d5684d553f5b317daf8e832aa30e708e47",
+    "zh:723ef344fb8e60244a18b9a0d3a38941f89b568aa09d2c5d7f5fb2693982da61",
+    "zh:b1ad47427a67f8c8a14868cd474ac8973a068b72dee4d1b828749017dc241212",
+    "zh:c5b980159090c9d8b5e664c79e324c60bc4c1a5f3cfa904999f027949869eef3",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+    "zh:ff5fea7d6c6b259938d1d2f008fd4d31242513e2ef592a68b0b6de7eab494a10",
+  ]
+}
